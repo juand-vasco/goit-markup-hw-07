@@ -1,0 +1,58 @@
+@import "//sass/utils/variables";
+
+.product {
+  padding: 50px 0px 80px 0px;
+
+  &__border {
+    margin-bottom: 30px;
+    
+  
+  }
+
+  &__animation {
+    position: absolute;
+    top: 0px;
+    height: 294px;
+    width: 370px;
+    padding: 63px 24px;
+    background: rgba(33, 150, 243, 0.9);
+    letter-spacing: 0.03em;
+    color: getColor("white");
+    transform: translateY(105%);
+    transition: transform 250ms ease;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    
+    
+  }
+  &__card{
+    position: relative;
+  overflow: hidden;
+  }
+
+  &__img{
+    display: flex;
+    justify-content: center;
+    margin: 0px;
+    width: auto;
+    height: auto;
+    gap: 30px;
+  }
+
+  &__figure {
+    margin: 0px;
+  background: getColor("white");
+  border: 1px solid getColor ("border");
+  box-shadow: 0 10px 10px -5px rgba(0, 0, 0, 0.3);
+  width: auto;
+  height: auto;
+  box-shadow: 0px 0px 0px 0px rgba(0, 0, 0, 0.3);
+
+  &:hover{
+    box-shadow: 10px 10px 10px -5px rgba(0, 0, 0, 0.3);
+  }
+  }
+}
+
+.product__border :hover .product__animation  {
+  transform: translateY(0%);
+}

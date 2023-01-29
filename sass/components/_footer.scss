@@ -1,0 +1,114 @@
+@import "//sass/utils/variables";
+
+.footer {
+  height: 252px;
+  background: getColor("footer");
+  display: flex;
+
+  &__address {
+    margin: 0px;
+    padding: 0px 0px 0px 215px;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 0.03em;
+    color: getColor("white");
+  }
+
+  &__contact {
+    margin: 0px;
+    padding: 0px 0px 0px 215px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14;
+    line-height: 16px;
+    letter-spacing: 0.02em;
+    color: getColor("gray");
+  }
+
+  &__find {
+    display: block;
+    justify-content: center;
+    padding: 75px 0px 0px 70px;
+  }
+
+  &__hear {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: getColor("white");
+  }
+
+  &__button {
+    width: 358px;
+    height: 50px;
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
+    border-radius: 4px;
+    box-sizing: border-box;
+    background-color: getColor("footer");
+  }
+
+  &__btn {
+    width: 200px;
+    height: 50px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    border-radius: 4px;
+    background: getColor("main");
+    color: getColor("white");
+  }
+
+  &__suscribe {
+    display: block;
+    justify-content: center;
+    margin-top: 20px;
+  }
+
+  &__svg {
+    fill: getColor("background");
+    margin-top: 13px;
+  }
+
+  &__ul {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    padding: 0%;
+  }
+
+  &__li {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    border-radius: 40px;
+    width: 44px;
+    height: 44px;
+
+    &:hover {
+      background: getColor("main");
+    }
+  }
+
+  &__title {
+    font-family: "Raleway";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 26;
+    line-height: 31px;
+    letter-spacing: 0.03em;
+    color: getColor("main");
+    padding: 24px 40px 6px 215px;
+    border-bottom: 1px;
+    width: 145px;
+    height: 31px;
+    left: 215px;
+    top: 2739px;
+  }
+}
+
+.filtro {
+    text-align: center;
+    padding: 80px 0px 0px 0px;
+  }

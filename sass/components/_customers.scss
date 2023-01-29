@@ -1,0 +1,36 @@
+@import "//sass/utils/variables";
+
+.customers {
+  display: block;
+  justify-content: center;
+  padding: 51px 0px 151px 0px;
+
+  &__container {
+    display: flex;
+    justify-content: center;
+  }
+
+  &__card {
+    display: flex;
+    justify-content: center;
+    border-radius: 4px;
+    border: 1px solid getColor("light-grey");
+    width: 170px;
+    height: 81px;
+
+    &:hover {
+      border: 1px solid getColor("main");
+    }
+  }
+
+  &__svg{
+    margin-top: 20px;
+  fill: getColor("light-grey");
+
+  &:hover{
+    fill: getColor("main");
+  }
+
+  }
+  
+}

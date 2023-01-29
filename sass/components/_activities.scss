@@ -1,0 +1,32 @@
+@import "//sass/utils/variables";
+
+.activities {
+  display: flex;
+  justify-content: center;
+  margin: 0px;
+  padding: 94px 0px 94px 0px;
+  text-align: left;
+
+  &__card {
+    position: relative;
+    overflow: hidden;
+  }
+
+  &__border {
+    margin-right: 30px;
+  }
+
+  &__label {
+    position: absolute;
+    padding-top: 27px;
+    background: rgba(47, 48, 58, 0.8);
+    letter-spacing: 0.03em;
+    color: getColor("white");
+    width: 372px;
+    height: 70px;
+    bottom: 5px;
+    display: flex;
+    justify-content: center;
+    text-transform: uppercase;
+  }
+}

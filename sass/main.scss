@@ -1,0 +1,105 @@
+@import "utils/variables";
+@import url("https://fonts.googlepis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700&display=swap");
+@import "components/nav";
+@import "components/contact";
+@import "components/main";
+@import "components/activities";
+@import "components/team";
+@import "components/footer";
+@import "components/product";
+@import "components/customers";
+@import "components/modal";
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Roboto", sans-serif !important;
+  color: getColor("shade");
+  background: getColor("white");
+  width: 100%;
+}
+
+label {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 14px;
+  letter-spacing: 0.01em;
+  color: getColor("gray");
+  padding-bottom: 20px;
+}
+
+button {
+    left: calc(50% - 145px / 2 - 15.5px);
+    top: calc(50% - 38px / 2 - 735px);
+    width: 128px;
+    height: 38px;
+    background: getColor("background");
+    border: 0px;
+    border-radius: 4px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16;
+    line-height: 26px;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: getColor("shade");
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background: getColor("main");
+    color: getColor("white");
+    box-shadow: 0 10px 10px -5px rgba(0, 0, 0, 0.3);
+  }
+  
+  button:focus {
+    background: getColor("main");
+    color: getColor("white");
+  }
+
+  h1 {
+    padding: 200px 300px 30px;
+    margin: 0px;
+    display: flex;
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 60px;
+    justify-content: center;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    color: getColor("white");
+  }
+  
+  h2 {
+    margin: 0px;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 42px;
+    text-align: center;
+    letter-spacing: 0.03em;
+  }
+
+  label {
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 14px;
+    letter-spacing: 0.01em;
+    color: getColor("gray");
+    padding-bottom: 20px;
+  }
+
+  ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    margin-top: 32px;
+    width: 100%;
+    height: 100%;
+    gap: 30px;
+    padding: 0%;
+  }

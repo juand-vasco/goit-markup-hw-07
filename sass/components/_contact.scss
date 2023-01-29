@@ -1,0 +1,36 @@
+@import "//sass/utils/variables";
+
+.contact {
+    padding: 32px 90px 32px 100px;
+    display: flex;
+    gap: 10px;
+
+    &__icon{
+        display: inline-block;
+        stroke-width: 0;
+        stroke: currentColor;
+        fill: currentColor;
+
+        &:hover{
+            fill:getColor("main");
+        }
+    }
+
+    &__nav{
+        font-style: normal;
+        font-weight: 500;
+        font-size: 14;
+        line-height: 16px;
+        letter-spacing: 0.02em;
+        color: getColor("gray");
+        padding: 0px 20px 0px 0px;
+
+        &:hover{
+            color: getColor("main");
+        }
+
+        &:focus{
+            color: getColor("main");
+        }
+    }
+  }

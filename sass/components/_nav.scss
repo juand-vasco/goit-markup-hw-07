@@ -1,0 +1,73 @@
+@import "//sass/utils/variables";
+
+.nav {
+  height: 80px;
+  display: flex;
+  font-family: "Roboto", sans-serif;
+  width: auto;
+  border-bottom: 1px solid getColor ("border");
+
+  &__menu {
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    margin-top: 32px;
+    width: 100%;
+    height: 100%;
+    gap: 30px;
+    padding: 0%;
+  }
+
+  &__option {
+    width: 70px;
+    height: 30px;
+    color: getColor("shade");
+    margin-left: 20px;
+    margin-right: 20px;
+    text-decoration: none;
+
+    &--boder {
+      color: getColor("main");
+    }
+
+    &:hover {
+      color: getColor("main");
+    }
+    &:focus {
+      color: getColor("main");
+    }
+  }
+
+  &__svg {
+    position: absolute;
+    height: 4px;
+    left: 170px;
+    top: 72px;
+    fill: getColor("main");
+  }
+
+  &__svgport {
+    position: absolute;
+    height: 4px;
+    left: 285px;
+    top: 72px;
+    fill: getColor("main");
+  }
+
+  &__title {
+    width: 145px;
+    height: 31px;
+    left: 215px;
+    top: 24px;
+    padding: 10px;
+    font-family: "Raleway";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 31px;
+    letter-spacing: 0.03em;
+    color: getColor("main");
+  }
+}
+
+
